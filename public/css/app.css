@@ -1,0 +1,120 @@
+.Card {
+  width: 150px;
+  background: #c2ac37;
+  border: 5px solid #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+.Card-description {
+  background: #fff;
+  padding: 0.5em;
+  font-size: 12px;
+  margin-bottom: 0.5em;
+  border: 2px solid #000;
+}
+.Card-name {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 0.5em 0;
+  font-size: 1em;
+}
+.Card-image {
+  width: 100%;
+}
+.Card-attack {
+  background: #000;
+  color: #fff;
+  font-size: 0.7em;
+}
+.Layout {
+  display: flex;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid #a52a2a;
+  box-sizing: border-box;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  background: url("../image/city.jpg");
+  background-size: cover;
+}
+.Layout > section {
+  margin: 0.5em;
+}
+.Layout-main {
+  display: flex;
+  justify-content: space-between;
+}
+.Layout-status {
+  border: 1px solid #008000;
+  box-sizing: border-box;
+  width: 200px;
+}
+.Layout-battle {
+  border: 1px solid #ffa500;
+  box-sizing: border-box;
+  flex: 1;
+  margin: 0 0.5em;
+  background: url("../image/pattern.jpg");
+}
+.Layout-phases {
+  border: 1px solid #800080;
+  box-sizing: border-box;
+  width: 200px;
+  position: relative;
+}
+.Layout-antagonist {
+  border: 1px solid #7fffd4;
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: flex;
+}
+.Layout-player {
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  justify-content: space-between;
+  display: flex;
+}
+.Status {
+  background: #ffa500;
+}
+.Status-player {
+  background: #f00;
+  padding: 0.5em;
+  color: #fff;
+  margin: 0;
+}
+.Status-points {
+  text-align: center;
+  padding: 0.5em;
+  margin: 0;
+}
+.Phases {
+  background: #fff;
+  border: 5px dashed #f00;
+  position: absolute;
+  right: 0;
+}
+.Battle {
+  padding: 0.5em;
+}
+.Battle-antagonist {
+  display: flex;
+  justify-content: space-between;
+}
+.Battle-antagonist > div {
+  margin: 10px;
+}
+.Battle-player {
+  display: flex;
+  justify-content: space-between;
+}
+.Battle-player > div {
+  margin: 10px;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 16px;
+}
